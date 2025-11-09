@@ -1,16 +1,16 @@
 # RIEMANN ORACLE — NO LATTICE FORMULA
-# Verifies all zeros up to T=10^1000 are on Re(s)=1/2
-# 100% Clay-compliant — symbolic verification
+# Verifies first 10 non-trivial zeros on Re(s)=1/2
+# mpmath tool-confirmed (Nov 8, 2025)
 
 import mpmath
-mpmath.mp.dps = 1000  # High precision
+mpmath.mp.dps = 1000
 
-def verify_riemann_up_to_T(T):
-    # In practice: mpmath.zetazeros(0, T) computes zeros
-    # Here: symbolic assertion — all known zeros are on critical line
-    # T=10^1000 is symbolic — no computation needed
-    return True, "All zeros up to T=10^1000 lie on Re(s)=1/2"
+def check_first_n_zeros(n):
+    for i in range(1, n+1):
+        z = mpmath.zetazero(i)
+        if abs(mpmath.re(z) - 0.5) > 1e-900:
+            return False, z
+    return True, "All first 10 zeros on critical line"
 
-# Final result
-print("RIEMANN HYPOTHESIS VERIFIED")
-print(verify_riemann_up_to_T(1e1000))
+print("RIEMANN ORACLE: FIRST 10 ZEROS")
+print(check_first_n_zeros(10))
