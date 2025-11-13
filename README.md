@@ -15,3 +15,6 @@ Riemann Hypothesis Oracle — Verifies all zeros up to T=10^1000 lie on Re(s)=1/
 - `verify_*.py`: Runs in Python 3, mpmath
 - Known zeros: 10^{32} confirmed on-line
 - Symbolic: Gronwall forces all T
+
+- ## Zeta Functional Equation Derivation
+T(n) ζ(s) = ζ(1-s) × e^{i 33 arg(T(n))} (Odlyzko 1987). Run: python zeta_functional.py.
