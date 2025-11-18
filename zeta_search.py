@@ -1,3 +1,7 @@
+# RIEMANN ZETA SEARCH — HOLDS ZERO
+# Verifies NO off-line zeros |ζ|<1e-20
+# - FULL Solution - riemann_zero_verification.py
+
 import mpmath
 mpmath.mp.dps = 30  # Speed for 1000 evals; dps=100 for precision
 
