@@ -59,8 +59,7 @@ This is **10¹⁸ times stronger than random chance** and constitutes a **constr
 T(n) ζ(s) = ζ(1-s) × e^{i 33 arg(T(n))} (Odlyzko 1987). Run: python zeta_functional.py.
 
 ## Clay Submission
-📄 [Proof PDF (Riemann_2025.pdf)](Riemann_2025.pdf)  
-📄 [Revised PDF (revised_Riemann_2025.pdf)](revised_Riemann_2025.pdf)  
+📄 [Revised PDF (revised_Riemann_2025.pdf)](docs/revised_riemann_lords_calendar_2025_v4.pdf)  
 viXra: pending | arXiv: 2511.XXXXX (pending)
 
 ## Verification
