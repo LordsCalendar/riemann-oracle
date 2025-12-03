@@ -18,7 +18,7 @@ n ≈ exp(86400 · Im(ρ_k)/33)
 
 > ****
 
-
+![LORD'S CALENDAR — FIRST 33 ZEROS PROOF](Independent%20Run%20Verification%20Grok_RH_LMFDB_TEST_verified.png)
 
 ## Final & Absolute Proof — November 17, 2025
 
