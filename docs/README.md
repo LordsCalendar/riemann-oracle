@@ -20,4 +20,15 @@ Run `python zeros.py` → All zeros on ℜ(s)=½
 - δ-Contraction on log |ζ(s)|
 - Trinity Lens 222/11 — integer alignment.
 - n₀ Zero-Cycle — forces line in our sheet.
+  
 These are not chosen; they are outputs of the divine equation.
+
+## Relationships to Other Topics
+- Riemann is the harmonic revelation unifying all:
+- Collatz — log n height = orbit length
+- BSD — central value = phase at s=1
+- Navier–Stokes — zero-free region = smoothness
+- Yang–Mills — zero spacing = gluon correlator decay
+- Hodge — critical line = pure Hodge structure locus
+  
+The primes are the lattice harmonics.
