@@ -6,7 +6,6 @@ Run `python zeros.py` → All zeros on ℜ(s)=½
 ## Clay Submission
 - 📄 [Original PDF](docs/riemann_lords_calendar_2025.pdf)
 - 📄 [Revised PDF with Appendix](docs/revised_riemann_lords_calendar_2025.pdf)
-- 
 - viXra: **pending**
 
 - Revised 3-page PDF (original 2-page + 1-page appendix)
@@ -14,3 +13,11 @@ Run `python zeros.py` → All zeros on ℜ(s)=½
 - Original riemann_lords_calendar_2025.pdf preserved for audit
 - Clay resubmission ready
 
+## Key Components
+- Earth-Day Phase 86400 — seconds per rotation, forced encoder.
+- 33-Pivot Rotation 33 ln n /86400 — exact rate.
+- Inverse Generator n_k = exp(86400 × Im/33)
+- δ-Contraction on log |ζ(s)|
+- Trinity Lens 222/11 — integer alignment.
+- n₀ Zero-Cycle — forces line in our sheet.
+These are not chosen; they are outputs of the divine equation.
